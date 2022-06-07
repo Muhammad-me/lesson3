@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6B6B6B;
+}
+button a{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.section2 p{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;   
+    color: #6B6B6B;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+}
+header{
+    padding: 30px 0;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    background-attachment: fixed;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 70% auto;
+    align-items: center;
+}
+.icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+}
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon a{
+    color: #AE7272;
+}
+.moment{
+    margin: 50px;
+}
+.moment h1{
+    margin: 10px 0;
+}
+.moment p{
+    margin: 25px 0;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.moment button{
+    width: 177px;
+    height: 66px;
+}
+.div{
+    margin: 15px 0;
+    height: 680px;
+    width: 652px;
+    background-image: url(../img/IMAGE\ \(20\).png);
+    background-repeat: no-repeat;
+    background-size: 680px 652px;
+}
+.comb{
+    display: grid;
+    justify-content: center;  
+    animation: comb 2s infinite alternate; 
+}
+@keyframes comb{
+    50%{
+        transform: translateY(-30px);
+        transition: 1s;
+    }
+}
+.section1{
+    padding: 100px 0 0 0;
+    background: #1B1B1B;
+}
+.word{
+    height: 300px;
+}
+.word h1{
+    text-transform: uppercase;
+    color: #A8A8A8;
+    text-align: center;
+}
+.null{
+    width: 607px;
+    margin: 50px auto;
+}
+.null h1{
+    font-size: 38px;
+    color: #FFFFFF;
+}
+.section2{
+    padding: 80px 105px;
+}
+.row{
+    height: 637px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+    padding: 0 100px;
+}
+.cay{
+    width: 450px;
+    height: 261px;
+}
+.cay h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+.cay p{
+    width: 306px;
+    height: 90px;
+    font-size: 16px;
+    color: #6B6B6B;
+}
+.h2 h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+.h2{
+    margin: 30px 0 22px;
+}
+.img{
+    width: 558px;
+    height: 637px;
+}
+.active{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.top{
+    width: 432px;
+    height: 209px;
+    text-align: center;
+}
+h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 40px auto 17px;
+}
+.top p{
+    width: 371px;
+}
+.number{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+.son{
+    width: 324px;
+    height: 134px;
+    text-align: center;
+}
+.sakkiz{
+    margin: 150px;
+}
+.son img{
+    margin: 10px 100px;
+}
+.thrid{
+    margin-top: 30px;
+}
+.mini-logos{
+    margin: 100px auto;
+}
+.mini-logos img{
+    width: 100%;
+}
+.section3{
+    height: 518px;
+    background-image: url(../img/IMAGE\ \(15\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.section4{
+    background-image: url(../img/Group\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 165px 0 156px;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+.section4 h1{
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+}
+.btn{
+    width: 390px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    margin: 40px auto;
+}
+.btn button{
+    width: 190px;
+    height: 66px;
+    border-radius: 3px;
+}
+.bnt{
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #B04BB3;
+}
+footer{
+    padding: 130px 0 70px;
+    background: #1B1B1B;
+    text-align: center;
+}
+footer h1{
+    font-size: 38px;
+    line-height: 48px;
+}
+footer p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin: 20px 0 40px;
+}
+footer input{
+    width: 310px;
+    height: 70px;
+    box-shadow: 0px 0px 0px #FC0A7E;
+    border-radius: 3px 0px 0px 3px;
+    outline: none;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 30px;
+}
+footer button{
+    width: 155px;
+    height: 70px;
+    border-radius: 0px 3px 3px 0px;
+}
+footer button a{
+    color: #000000;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-img{
+    width: 136px;
+    height: 104px;
+    margin: 150px auto 30px;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 7% 8%;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
